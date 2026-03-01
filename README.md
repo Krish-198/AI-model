@@ -9,6 +9,23 @@ A tool-augmented structured research assistant built using LangChain 1.x and GPT
 - Automatic file saving
 - Modern LangGraph agent architecture
 
+## Architecture
+
+User Query
+   ↓
+LangChain Agent (LangGraph)
+   ↓
+LLM Reasoning (GPT-5.2)
+   ↓
+External Tools
+   • DuckDuckGo Search
+   • Wikipedia API
+   • File Save Tool
+   ↓
+Structured Pydantic Output
+   ↓
+Saved Research File
+
 ## Setup
 
 1. Clone repo
